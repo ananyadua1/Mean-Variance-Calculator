@@ -2,32 +2,27 @@
 
 📊 A Python calculator that computes mean, variance, standard deviation, max, min, and sum from nine numbers.
 
-📂 Project Structure
-├── main.py               # Runs the calculator with a test case
-├── mean_var_std.py       # Contains the calculate() function
-└── README.md             # Project documentation
+This project demonstrates how to perform basic statistical calculations in Python using NumPy.
+The program takes a list of nine numbers, reshapes it into a 3×3 matrix, and then computes descriptive statistics row-wise, column-wise, and for the entire matrix.
 
 ⚡ Features
 
-- Accepts 9 numbers.
+✔️ Input validation (ensures exactly 9 numbers are provided)
 
-- Reshapes input into a 3x3 matrix.
+✔️ Reshaping into a 3x3 matrix
 
-- Calculates values:
+✔️ Calculates:
 
-- Across columns (axis = 0)
+- Mean
 
-- Across rows (axis = 1)
+- Variance
 
-- Across the entire matrix
+- Standard Deviation
 
+- Maximum
 
-🎯 Learning Goals
+- Minimum
 
-Use NumPy for mathematical and statistical operations.
+- Sum
 
-Work with 3x3 matrices created from lists.
-
-Return results in a structured dictionary format.
-
-Practice modular Python programming.
+✔️ Results returned in a dictionary format
